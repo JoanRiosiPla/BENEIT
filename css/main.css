@@ -12,6 +12,12 @@ body
     background-color: var(--background);
 }
 
+h1
+{
+    color: white !important;
+    margin-bottom: 0 !important;
+}
+
 a
 {
     color: var(--accent) !important;
@@ -34,5 +40,11 @@ input[type=text]
     {
         border: 1px solid var(--accent);
     }
+}
+
+.logo {
+    width: auto;
+    height: 50px;
+    object-fit: contain;
 }
 
