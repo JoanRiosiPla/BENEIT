@@ -9,5 +9,8 @@ https://joanriosipla.github.io/BENEIT/
 Els insults a la nostra llengua s'estan castellanitzant i molts dels nostres propis es queden en l'oblit.
 Aquest projecte busca conservar la nostra meravellosa cultura dels insults.
 
+### Com afegir paraules
+TODO
+
 ### Contribuïdors
 Joan Rios i Pla
