@@ -65,6 +65,7 @@
                     word.paraula.toLowerCase().includes(search.toLowerCase())
                     || word.definicio.toLowerCase().includes(search.toLowerCase())
                     || word.tags.includes(search.toLowerCase())
+                    || word.font.nom.toLowerCase() == (search.toLowerCase())
                 )) {
                 continue;
             }
