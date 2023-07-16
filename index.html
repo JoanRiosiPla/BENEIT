@@ -42,16 +42,30 @@
     });
 
     function update(data, search) {
-        console.log(data);
         // Get the word list
         let wordList = document.querySelector('.word-list');
         // Clear the word list
         wordList.innerHTML = '';
+        // Sort the words by alphabetical order
+        data.insults.sort((a, b) => {
+            if (a.paraula < b.paraula) {
+                return -1;
+            }
+            if (a.paraula > b.paraula) {
+                return 1;
+            }
+            return 0;
+        });
         // For each word in the json file
         for (let i = 0; i < data.insults.length; i++) {
             word = data.insults[i];
-            
-            if (search && !word.paraula.toLowerCase().includes(search.toLowerCase())) {
+            if (
+                search && 
+                !(
+                    word.paraula.toLowerCase().includes(search.toLowerCase())
+                    || word.definicio.toLowerCase().includes(search.toLowerCase())
+                    || word.tags.includes(search.toLowerCase())
+                )) {
                 continue;
             }
             // Create a new list item
