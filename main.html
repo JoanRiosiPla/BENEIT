@@ -1,38 +1,76 @@
 <!DOCTYPE html>
 <head>
     <meta charset="utf-8">
-    <title>BNEIT</title>
+    <title>BENEIT</title>
     <link rel="stylesheet" href="css/main.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 </head>
 <body>
     <!-- Header bar with a logo, a name and a search bar -->
-    <div class="header">
+    <div class="header d-flex flex-row align-items-center p-2 mb-3">
         <div class="logo">
             <img src="img/logo.png" alt="logo">
         </div>
-        <div class="name">
-            <h1>BNEIT</h1>
+        <div class="name mx-4 my-0">
+            <h1>BENEIT</h1>
         </div>
-        <div class="search">
-            <input type="text" placeholder="Search..">
+        <div class="search-bar ms-auto">
+            <input type="text" placeholder="Search...">
         </div>
     </div>
     <!-- A list of words, with definitions and tags -->
-    <div class="word-list">
-        <div class="word">
-            <div class="word-name">
-                <h2>Word</h2>
-            </div>
-            <div class="word-definition">
-                <p>Definition</p>
-            </div>
-            <div class="word-tags">
-                <p>Tags</p>
-            </div>
-        </div>
+    <div class="word-list list-group mx-4">
     </div> 
 
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+<script>
+    // Get insults.json
+    console.log('Fetching insults.json...');
+    fetch('/insults.json')
+    .then(response => response.json())
+    .then(data => {
+        console.log('Fetched insults.json');
+        // Get the word list
+        let wordList = document.querySelector('.word-list');
+        // For each word in the json file
+        data.insults.forEach(word => {
+            // Create a new list item
+            let listItem = document.createElement('a');
+            listItem.classList.add('list-group-item', 'list-group-item-action');
+            listItem.setAttribute('aria-current', 'true');
+            // Create a new div for the word and the tags
+            let div = document.createElement('div');
+            div.classList.add('d-flex', 'w-100', 'justify-content-between');
+            // Create a new h5 for the word
+            let h5 = document.createElement('h5');
+            h5.classList.add('mb-1');
+            h5.innerText = word.paraula;
+            // Create a new small for the tags
+            let small = document.createElement('small');
+            small.classList.add('tags');
+            small.innerText = word.tags;
+            // Create a new p for the definition
+            let p = document.createElement('p');
+            p.classList.add('mb-1');
+            p.innerText = word.definicio;
+            // Create a new small for the font
+            let smallFont = document.createElement('small');
+            let smallFontA = document.createElement('a');
+            smallFont.classList.add('font');
+            smallFontA.innerText = word.font.nom;
+            smallFontA.setAttribute('href', word.font.url);
+            smallFont.appendChild(smallFontA);
+            // Append the h5 and the small to the div
+            div.appendChild(h5);
+            div.appendChild(small);
+            // Append the div, the p and the smallFont to the list item
+            listItem.appendChild(div);
+            listItem.appendChild(p);
+            listItem.appendChild(smallFont);
+            // Append the list item to the word list
+            wordList.appendChild(listItem);
+        });
+    });
+</script>
 </html>
