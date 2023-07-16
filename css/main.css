@@ -48,3 +48,8 @@ input[type=text]
     object-fit: contain;
 }
 
+#searchBar
+{
+    width: 100%;
+}
+

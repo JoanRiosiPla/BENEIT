@@ -13,9 +13,7 @@
         <div class="name mx-2 my-0">
             <h1>B.E.N.E.I.T.</h1>
         </div>
-        <div class="search-bar ms-auto">
-            <input type="text" id="searchBar" placeholder="Search...">
-        </div>
+        <input type="text" id="searchBar" placeholder="Search...">
     </div>
     <!-- A list of words, with definitions and tags -->
     <div class="word-list list-group mx-4 mb-4">
@@ -96,8 +94,14 @@
 </script>
 <script>
     // Adapt site scale to screen size
-    var siteWidth = 1280;
-    var scale = screen.width /siteWidth;
-    document.querySelector('meta[name="viewport"]').setAttribute('content', 'width='+siteWidth+'', 'initial-scale='+scale+'');
+    setTimeout(function() {
+        if (screen.width < 1280) {
+            document.querySelector('meta[name="viewport"]').setAttribute('content', 'width='+screen.width+'');
+        }
+        if (screen.width > 1280) {
+            document.querySelector('meta[name="viewport"]').setAttribute('content', 'width=1280');
+        }
+    }, 50);
+
 </script>
 </html>
