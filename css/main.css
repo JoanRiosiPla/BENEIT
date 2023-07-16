@@ -3,7 +3,7 @@
     --text: #000000;
     --background: #fefafd;
     --primary: #5eed87;
-    --secondary: #b1e3f6;
+    --secondary: #c2ffd4;
     --accent: #d50199;
 }
 
@@ -12,7 +12,27 @@ body
     background-color: var(--background);
 }
 
+a
+{
+    color: var(--accent) !important;
+    text-decoration: none !important;
+}
+
 .header
 {
     background-color: var(--primary);
 }
+
+input[type=text]
+{
+    background-color: var(--secondary);
+    border: 1px solid var(--primary);
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    &:focus-visible
+    {
+        border: 1px solid var(--accent);
+    }
+}
+

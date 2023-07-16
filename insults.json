@@ -1,17 +1,6 @@
 {
     "insults": [
         {
-            "paraula": "Botifler",
-            "definicio": "Malnom amb què a la Corona d'Aragó es va titllar els partidaris de Felip V durant la Guerra de Successió Espanyola i que s'oposava al d'«Imperials», «Aguilots», «Maulets» o «Vigatans», els malnoms que van rebre els partidaris de Carles III. Des d'aleshores i fins a l'actualitat el malnom «botifler» encara s'empra a Catalunya per referir-se als «catalans traïdors».",
-            "tags": [
-                "polític"
-            ],
-            "font": {
-                "nom": "Wikipedia",
-                "url": "https://ca.wikipedia.org/wiki/Botifler"
-            }
-        },
-        {
             "paraula": "Carallot",
             "definicio": "Encantat, aturat. Persona que no fa res.",
             "tags": [
@@ -301,7 +290,8 @@
             "paraula": "Figaflor",
             "definicio": "Amb poc caràcter i decisió, poruc.",
             "tags": [
-                "despectiu"
+                "despectiu",
+                "vegetal"
             ],
             "font": {
                 "nom": "Atzucac.cat",
@@ -312,7 +302,8 @@
             "paraula": "Pastanaga",
             "definicio": "Que té poc seny.",
             "tags": [
-                "despectiu"
+                "despectiu",
+                "vegetal"
             ],
             "font": {
                 "nom": "Atzucac.cat",
@@ -647,6 +638,19 @@
             "font": {
                 "nom": "Atzucac.cat",
                 "url": "https://atzucac.cat/insultem-i-blasfemem-pero-en-catala/"
+            }
+        },
+        {
+            "paraula": "Figa Molla",
+            "definicio": "Persona sense energia ni caràcter.",
+            "tags": [
+                "despectiu",
+                "sexual",
+                "vegetal"
+            ],
+            "font": {
+                "nom": "AVL",
+                "url": "https://www.avl.gva.es/lexicval/?paraula=Figa%20molla"
             }
         }
     ]
