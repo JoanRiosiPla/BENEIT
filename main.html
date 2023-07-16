@@ -9,7 +9,7 @@
     <!-- Header bar with a logo, a name and a search bar -->
     <div class="header d-flex flex-row align-items-center p-2 mb-3">
         <div class="logo">
-            <img src="img/logo.png" alt="logo">
+            <img src="./img/logo.png" alt="logo">
         </div>
         <div class="name mx-4 my-0">
             <h1>BENEIT</h1>
@@ -27,7 +27,7 @@
 <script>
     // Get insults.json
     console.log('Fetching insults.json...');
-    fetch('/insults.json')
+    fetch('./insults.json')
     .then(response => response.json())
     .then(data => {
         console.log('Fetched insults.json');

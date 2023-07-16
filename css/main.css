@@ -7,12 +7,10 @@
     --accent: #d50199;
 }
 
-
 body
 {
     background-color: var(--background);
 }
-
 
 .header
 {
