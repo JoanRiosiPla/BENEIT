@@ -48,8 +48,16 @@ input[type=text]
     object-fit: contain;
 }
 
+.widthLimited
+{
+    max-width: 1000px;
+    margin: auto;
+}
+
+
 #searchBar
 {
     width: 100%;
+    max-width: 250px;
 }
 
