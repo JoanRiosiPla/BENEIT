@@ -10,7 +10,7 @@ Els insults a la nostra llengua s'estan castellanitzant i molts dels nostres pro
 Aquest projecte busca conservar la nostra meravellosa cultura dels insults.
 
 ### Com afegir paraules
-TODO
+[Guia de contribució](CONTRIBUTING.md)
 
 ### Contribuïdors
 Joan Rios i Pla
