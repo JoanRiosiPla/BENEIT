@@ -652,6 +652,17 @@
                 "nom": "AVL",
                 "url": "https://www.avl.gva.es/lexicval/?paraula=Figa%20molla"
             }
+        },
+        {
+            "paraula": "Destrellatat",
+            "definicio": "Persona informal, que no té trellat.",
+            "tags": [
+                "despectiu",
+            ],
+            "font": {
+                "nom": "diccionarivalencia.com",
+                "url": "https://diccionarivalencia.com/destrellatat"
+            }
         }
     ]
 }
