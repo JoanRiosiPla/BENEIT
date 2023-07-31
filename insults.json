@@ -663,6 +663,90 @@
                 "nom": "diccionarivalencia.com",
                 "url": "https://diccionarivalencia.com/destrellatat"
             }
+        },
+        {
+            "paraula": "Bajoca",
+            "definicio": "Dit de la persona sense cap malícia, que és bona de natural o excessivament condescendent; babau, bonàs, calçasses.",
+            "tags": [
+                "despectiu",
+                "vegetal"
+            ],
+            "font": {
+                "nom": "rodamots.cat",
+                "url": "https://rodamots.cat/bajoc-a/"
+            }
+        },
+        {
+            "paraula": "Bleda",
+            "definicio": "Poc espavilat, que no té vigor.",
+            "tags": [
+                "despectiu",
+                "vegetal"
+            ],
+            "font": {
+                "nom": "AVL",
+                "url": "http://www.avl.gva.es/lexicval/"
+            }
+        },
+        {
+            "paraula": "Figamolla / Figamústia",
+            "definicio": "Persona sense energia ni caràcter.",
+            "tags": [
+                "despectiu",
+                "vegetal"
+            ],
+            "font": {
+                "nom": "AVL",
+                "url": "http://www.avl.gva.es/lexicval/"
+            }
+        },
+        {
+            "paraula": "Fava",
+            "definicio": "Que no té gens de malícia, innocent. No sigues fava. El teu amic és una miqueta fava.",
+            "tags": [
+                "despectiu",
+                "vegetal"
+            ],
+            "font": {
+                "nom": "AVL",
+                "url": "http://www.avl.gva.es/lexicval/"
+            }
+        },
+        {
+            "paraula": "Panfígol",
+            "definicio": "Versió masculina de Figamolla: Persona sense energia ni caràcter.",
+            "tags": [
+                "despectiu",
+                "vegetal"
+            ],
+            "font": {
+                "nom": "AVL",
+                "url": "http://www.avl.gva.es/lexicval/"
+            }
+        },
+        {
+            "paraula": "Cap de meló / Cap de carbassa",
+            "definicio": "Curt d’enteniment",
+            "tags": [
+                "despectiu",
+                "vegetal"
+            ],
+            "font": {
+                "nom": "Softcatalà",
+                "url": "https://www.softcatala.org/diccionari-de-sinonims/paraula/cap%20de%20mel%C3%B3/"
+            }
+        },
+        {
+            "paraula": "Moniato",
+            "definicio": "Aquell que, amb una actitud petulant, vol fer creure als altres que és una persona important o que sap molt més del que realment sap.",
+            "tags": [
+                "despectiu",
+                "vegetal"
+            ],
+            "font": {
+                "nom": "AVL",
+                "url": "https://www.avl.gva.es/web/publicacions/moniato"
+            }
         }
     ]
 }
