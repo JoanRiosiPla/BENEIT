@@ -1,6 +1,17 @@
 {
     "insults": [
         {
+            "paraula": "Aixafaguitarres",
+            "definicio": "Persona que fa anar malament un pla precist",
+            "tags": [
+                "despectiu"
+            ],
+            "font": {
+                "nom": "Viccionari",
+                "url": "https://ca.m.wiktionary.org/wiki/aixafaguitarres"
+            }
+        },
+        {
             "paraula": "Carallot",
             "definicio": "Encantat, aturat. Persona que no fa res.",
             "tags": [
