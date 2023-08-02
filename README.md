@@ -11,6 +11,3 @@ Aquest projecte busca conservar la nostra meravellosa cultura dels insults.
 
 ### Com afegir paraules
 [Guia de contribució](CONTRIBUTING.md)
-
-### Contribuïdors
-Joan Rios i Pla
