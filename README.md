@@ -10,4 +10,6 @@ Els insults a la nostra llengua s'estan castellanitzant i molts dels nostres pro
 Aquest projecte busca conservar la nostra meravellosa cultura dels insults.
 
 ### Com afegir paraules
-[Guia de contribució](CONTRIBUTING.md)
+Actualment, hi ha 2 opcions:
+- A través del [Formulari](https://docs.google.com/forms/d/e/1FAIpQLSfaUMh9FfrHljv75PoBfhMX-3EK5Fn8CoukRFBO5fl0eYxjlQ/viewform?usp=sf_link)
+- Modificant el Json (Aquells acostumats a GitHub, s'agraeix que utilitzeu aquesta.) [Guia de contribució](CONTRIBUTING.md)
