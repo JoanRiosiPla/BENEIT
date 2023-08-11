@@ -746,72 +746,72 @@
                 "url": "https://www.avl.gva.es/web/publicacions/moniato"
             }
         },
-    {
-      "paraula": "Nyicris",
-      "definicio": "Persona escarransida, escanyolida, malaltissa.",
-      "tags": [
-        "despectiu"
-      ],
-      "font": {
-        "nom": "Rodamots",
-        "url": "https://rodamots.cat/nyicris/"
-      }
-    },
-    {
-      "paraula": "Meuca",
-      "definicio": "Prostituta.",
-      "tags": [
-        "despectiu"
-      ],
-      "font": {
-        "nom": "Tocat del bolet",
-        "url": "https://tocatdelbolet.cat/top-10-insults-catalans/"
-      }
-    },
-    {
-      "paraula": "Bocamoll",
-      "definicio": "Que diu allò que caldria callar, que tot ho xerra.",
-      "tags": [
-        "despectiu"
-      ],
-      "font": {
-        "nom": "Rodamots",
-        "url": "https://rodamots.cat/bocamoll-a/"
-      }
-    },
-    {
-      "paraula": "Lluç",
-      "definicio": "Curt, parat; persona poc espavilada.",
-      "tags": [
-        "despectiu",
-        "animal"
-      ],
-      "font": {
-        "nom": "Rodamots",
-        "url": "https://rodamots.cat/lluc-2/"
-      }
-    },
-    {
-      "paraula": "Ploramiques",
-      "definicio": "Que plora per no res.",
-      "tags": [
-        "despectiu"
-      ],
-      "font": {
-        "nom": "Rodamots",
-        "url": "https://rodamots.cat/ploramiques/"
-      }
-    },
-    {
-      "paraula": "Pocavergonya",
-      "definicio": "Dit d’una persona desvergonyida, que no es comporta com cal.",
-      "tags": [
-        "despectiu"
-      ],
-      "font": {
-        "nom": "Rodamots",
-        "url": "https://rodamots.cat/pocavergonya/"
-      }
+        {
+            "paraula": "Nyicris",
+            "definicio": "Persona escarransida, escanyolida, malaltissa.",
+            "tags": [
+                "despectiu"
+            ],
+            "font": {
+                "nom": "Rodamots",
+                "url": "https://rodamots.cat/nyicris/"
+            }
+        },
+        {
+            "paraula": "Meuca",
+            "definicio": "Prostituta.",
+            "tags": [
+                "despectiu"
+            ],
+            "font": {
+                "nom": "Tocat del bolet",
+                "url": "https://tocatdelbolet.cat/top-10-insults-catalans/"
+            }
+        },
+        {
+            "paraula": "Bocamoll",
+            "definicio": "Que diu allò que caldria callar, que tot ho xerra.",
+            "tags": [
+                "despectiu"
+            ],
+            "font": {
+                "nom": "Rodamots",
+                "url": "https://rodamots.cat/bocamoll-a/"
+            }
+        },
+        {
+            "paraula": "Lluç",
+            "definicio": "Curt, parat; persona poc espavilada.",
+            "tags": [
+                "despectiu",
+                "animal"
+            ],
+            "font": {
+                "nom": "Rodamots",
+                "url": "https://rodamots.cat/lluc-2/"
+            }
+        },
+        {
+            "paraula": "Ploramiques",
+            "definicio": "Que plora per no res.",
+            "tags": [
+                "despectiu"
+            ],
+            "font": {
+                "nom": "Rodamots",
+                "url": "https://rodamots.cat/ploramiques/"
+            }
+        },
+        {
+            "paraula": "Pocavergonya",
+            "definicio": "Dit d’una persona desvergonyida, que no es comporta com cal.",
+            "tags": [
+                "despectiu"
+            ],
+            "font": {
+                "nom": "Rodamots",
+                "url": "https://rodamots.cat/pocavergonya/"
+            }
         }
     ]
 }
