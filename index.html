@@ -45,11 +45,21 @@
                 Aquesta és una web amb tots els insults en valencià/català/balear creada amb l'objectiu de conservar la nostra meravellosa cultura dels insults.
             </div>
             <div class="list-group-item" id="recompte">
-                Actualment, a la base de dades hi tenim <b>00</b> insults, si en voleu afegir més, visiteu el nostre <a href="https://github.com/JoanRiosiPla/BENEIT">GitHub</a> o afegiu paraules a través del <a href="https://docs.google.com/forms/d/e/1FAIpQLSfaUMh9FfrHljv75PoBfhMX-3EK5Fn8CoukRFBO5fl0eYxjlQ/viewform?usp=sf_link">Formulari</a>.
+                Actualment, a la base de dades hi tenim 
+                <b>
+                    <div class="spinner-border spinner-border-sm" role="status">
+                    </div>
+                </b>
+                 insults, si en voleu afegir més, visiteu el nostre <a href="https://github.com/JoanRiosiPla/BENEIT">GitHub</a> o afegiu paraules a través del <a href="https://docs.google.com/forms/d/e/1FAIpQLSfaUMh9FfrHljv75PoBfhMX-3EK5Fn8CoukRFBO5fl0eYxjlQ/viewform?usp=sf_link">Formulari</a>.
             </div>
         </div>
         <!-- La llista de paraules -->
         <div class="word-list list-group mx-4 mb-4">
+            <!-- Loader inicial, després desapareix -->
+            <div class="d-flex justify-content-center list-group-item">
+                <div class="spinner-border ml-auto" role="status" aria-hidden="true"></div>
+            </div>
+            <!-- Fí del loader inicial -->
         </div>
     </div>
 
