@@ -19,11 +19,11 @@
     <link rel="apple-touch-icon" sizes="76x76" href="./favicons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
-    <link rel="manifest" href="/favicons/site.webmanifest">
-    <link rel="mask-icon" href="/favicons/safari-pinned-tab.svg" color="#5bbad5">
-    <link rel="shortcut icon" href="/favicons/favicon.ico">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="./favicons/favicon.ico">
     <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-config" content="/favicons/browserconfig.xml">
+    <meta name="msapplication-config" content="./favicons/browserconfig.xml">
     <meta name="theme-color" content="#d6ffe2">
 </head>
 
@@ -31,7 +31,7 @@
     <!-- Header bar with a logo, a name and a search bar -->
     <div class="header">
         <div class="widthLimited  d-flex flex-row align-items-center p-2 mb-3">
-            <img class="logo" src="/BENEIT/img/logo.png" alt="logo" id="logo">
+            <img class="logo" src="./img/logo.png" alt="logo" id="logo">
             <div class="name mx-2">
                 <h1>B.E.N.E.I.T.</h1>
             </div>
@@ -65,12 +65,10 @@
     const urlParams = new URLSearchParams(queryString);
     query = urlParams.get('search');
 
-    document.getElementById("logo").src = domain + '/img/logo.png';
-
     var data;
 
     // Get insults.json
-    fetch(domain + '/insults.json?nocache=' + (new Date()).getTime())
+    fetch('./insults.json?nocache=' + (new Date()).getTime())
     .then(response => response.json())
     .then(jsonData => {
         console.log('Fetched insults.json');
