@@ -24,6 +24,38 @@ a
     text-decoration: none !important;
 }
 
+button
+{
+    background-color: var(--secondary);
+    border: 1px solid var(--primary);
+    border-radius: 5px !important;
+    transition: all 100ms ease-in-out;
+    &:hover
+    {
+        background-color: color-mix(in srgb,var(--primary),#ffffff 30%);
+        border: 1px solid var(--secondary);
+    }
+    &:active
+    {
+        background-color: var(--primary);
+        border: 5px solid var(--secondary);
+    }
+    &#search-x
+    {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+    
+        height: 35px;
+        width: 35px;
+        &.hidden
+        {
+            opacity: 0;
+        }
+    }
+    
+}
+
 .header
 {
     background-color: var(--primary);
