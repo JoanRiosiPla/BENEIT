@@ -812,6 +812,17 @@
                 "nom": "Rodamots",
                 "url": "https://rodamots.cat/pocavergonya/"
             }
+        },
+        {
+            "paraula": "Esgarriacries",
+            "definicio": "Persona que es plau a posar entrebancs, a importunar, a desfer els projectes, les converses, els jocs, etc.",
+            "tags": [
+                "despectiu"
+            ],
+            "font": {
+                "nom": "Diccionari.cat",
+                "url": "https://www.diccionari.cat/GDLC/esgarriacries"
+            }
         }
     ]
 }
