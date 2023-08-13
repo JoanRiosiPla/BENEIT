@@ -3,7 +3,7 @@
 Web i base de dades amb tots els insults en valencià/català/balear on tothom pot afegir-ne de nous.
 (En desenvolupament)
 
-https://joanriosipla.github.io/BENEIT/
+beneit.cat
 
 ### Objectiu
 Els insults a la nostra llengua s'estan castellanitzant i molts dels nostres propis es queden en l'oblit.
