@@ -156,20 +156,20 @@
         if (wordList.innerHTML == '') {
             wordList.appendChild(createListItem(
                 "Cap Resultat",
-                "No s'ha trobat cap resultat per a la cerca '" + search + "', si voleu afegir la paraula a la base de dades, visiteu el nostre GitHub.",
+                "No s'ha trobat cap resultat per a la cerca '" + search + "', si voleu afegir la paraula a la base de dades, visiteu el nostre <a href=\"https://github.com/JoanRiosiPla/BENEIT\">GitHub</a> o afegiu-la a través del <a href=\"https://docs.google.com/forms/d/e/1FAIpQLSfaUMh9FfrHljv75PoBfhMX-3EK5Fn8CoukRFBO5fl0eYxjlQ/viewform?usp=sf_link\">Formulari</a>.",
                 "",
-                "GitHub",
-                "https://github.com/JoanRiosiPla/BENEIT",
+                "",
+                "",
                 "warning"
             ));
         }
         else {
             wordList.appendChild(createListItem(
-                "Trobes a faltar alguna paraula?",
-                "Per a afegir la paraula a la base de dades, visita el nostre GitHub.",
+                "Heu trobat a faltar alguna paraula?",
+                "Per a afegir la paraula a la base de dades, visiteu el nostre <a href=\"https://github.com/JoanRiosiPla/BENEIT\">GitHub</a> o afegiu-la a través del <a href=\"https://docs.google.com/forms/d/e/1FAIpQLSfaUMh9FfrHljv75PoBfhMX-3EK5Fn8CoukRFBO5fl0eYxjlQ/viewform?usp=sf_link\">Formulari</a>.",
                 "",
-                "GitHub",
-                "https://github.com/JoanRiosiPla/BENEIT",
+                "",
+                "",
                 "warning"
             ));
         }
@@ -193,7 +193,7 @@
         // Create a new p for the definition
         let p = document.createElement('p');
         p.classList.add('mb-1');
-        p.innerText = definicio;
+        p.innerHTML = definicio;
         // Create a new small for the font
         let smallFont = document.createElement('small');
         let smallFontA = document.createElement('a');
