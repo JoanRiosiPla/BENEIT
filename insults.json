@@ -823,6 +823,40 @@
                 "nom": "Diccionari.cat",
                 "url": "https://www.diccionari.cat/GDLC/esgarriacries"
             }
+        },
+        {
+            "paraula": "Soca/Tros de soca",
+            "definicio": "Que és obtús o inepte.",
+            "tags": [
+                "despectiu",
+                "vegetal"
+            ],
+            "font": {
+                "nom": "DNV",
+                "url": "https://www.avl.gva.es/lexicval/mobile/"
+            }
+        },
+        {
+            "paraula": "Apardalat",
+            "definicio": "Embadalit, babau.",
+            "tags": [
+                "despectiu"
+            ],
+            "font": {
+                "nom": "DNV",
+                "url": "https://www.avl.gva.es/lexicval/mobile/"
+            }
+        },
+        {
+            "paraula": "Esgarramantes",
+            "definicio": "Malfaener, peresós.",
+            "tags": [
+                "despectiu"
+            ],
+            "font": {
+                "nom": "DNV",
+                "url": "https://www.avl.gva.es/lexicval/mobile/"
+            }
         }
     ]
 }
