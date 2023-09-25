@@ -857,6 +857,18 @@
                 "nom": "DNV",
                 "url": "https://www.avl.gva.es/lexicval/mobile/"
             }
+        },
+        {
+            "paraula": "Carabassa",
+            "definicio": "Persona que no esta bé del cap, esta boig",
+            "tags": [
+                "despectiu",
+                "vegetal"
+            ],
+            "font": {
+                "nom": "DNV",
+                "url": "https://www.avl.gva.es/lexicval"
+            }
         }
     ]
 }
