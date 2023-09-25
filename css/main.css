@@ -86,6 +86,17 @@ input[type=text]
     margin: auto;
 }
 
+.centralList 
+{
+    /* fill the remaining space */
+    min-height: 80vh;
+}
+
+.highlight
+{
+    background-color: var(--primary);
+    border-radius: 5px;
+}
 
 #searchBar
 {
@@ -93,3 +104,16 @@ input[type=text]
     max-width: 250px;
 }
 
+.footer
+{
+    background-color: var(--primary);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.footer a
+{
+    color: white !important;
+}
