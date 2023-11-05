@@ -1,15 +1,15 @@
 :root
 {
     --text: #000000;
-    --background: #fefafd;
     --primary: #5eed87;
     --secondary: #c2ffd4;
+    --background: #bbfec0;
     --accent: #d50199;
 }
 
 body
 {
-    background-color: var(--background);
+    background-color: var(--background) !important;
 }
 
 h1
