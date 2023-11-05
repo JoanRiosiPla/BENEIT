@@ -56,6 +56,19 @@ button
     
 }
 
+.list-group-item-warning {
+    --bs-list-group-color: black;
+    --bs-list-group-bg: #ffc4f2;
+    border: 1px #fface9 solid;
+    --bs-list-group-action-hover-color: #1d0017;
+    --bs-list-group-action-hover-bg: #ffabed;
+    --bs-list-group-action-active-color: #000000;
+    --bs-list-group-action-active-bg: #ffabed;
+    --bs-list-group-active-color: #000000;
+    --bs-list-group-active-bg: #ffabed;
+    --bs-list-group-active-border-color: #d50199;
+}
+
 .header
 {
     background-color: var(--primary);
