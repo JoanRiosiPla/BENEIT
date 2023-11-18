@@ -13,3 +13,8 @@ Aquest projecte busca conservar la nostra meravellosa cultura dels insults.
 Actualment, hi ha 2 opcions:
 - A través del [Formulari](https://docs.google.com/forms/d/e/1FAIpQLSfaUMh9FfrHljv75PoBfhMX-3EK5Fn8CoukRFBO5fl0eYxjlQ/viewform?usp=sf_link)
 - Modificant el Json (Aquells acostumats a GitHub, s'agraeix que utilitzeu aquesta.) [Guia de contribució](CONTRIBUTING.md)
+
+
+### Llicències i codi obert
+- S'ha utilitzat la llibreria de c++ de Niels Lohmann [JSON for Modern C++](https://github.com/nlohmann/json) sota la llicència [MIT](https://github.com/nlohmann/json/blob/develop/LICENSE.MIT)
+- S'ha utilitzat el jQuerry Highlight Plugin de Johann Burkard sota la llicència [MIT](https://opensource.org/license/mit/)

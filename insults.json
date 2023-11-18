@@ -1,874 +1,886 @@
 {
     "insults": [
         {
-            "paraula": "Aixafaguitarres",
             "definicio": "Persona que fa anar malament un pla precist",
-            "tags": [
-                "despectiu"
-            ],
             "font": {
                 "nom": "Viccionari",
                 "url": "https://ca.m.wiktionary.org/wiki/aixafaguitarres"
-            }
+            },
+            "paraula": "Aixafaguitarres",
+            "tags": [
+                "despectiu"
+            ]
         },
         {
-            "paraula": "Carallot",
             "definicio": "Encantat, aturat. Persona que no fa res.",
-            "tags": [
-                "despectiu"
-            ],
             "font": {
                 "nom": "Atzucac.cat",
                 "url": "https://atzucac.cat/insultem-i-blasfemem-pero-en-catala/"
-            }
+            },
+            "paraula": "Carallot",
+            "tags": [
+                "despectiu"
+            ]
         },
         {
-            "paraula": "Mocós",
             "definicio": "Infant, criatura, especialment quan pretén obrar com una persona gran.",
-            "tags": [
-                "despectiu"
-            ],
             "font": {
                 "nom": "Atzucac.cat",
                 "url": "https://atzucac.cat/insultem-i-blasfemem-pero-en-catala/"
-            }
+            },
+            "paraula": "Mocós",
+            "tags": [
+                "despectiu"
+            ]
         },
         {
-            "paraula": "Malparit",
             "definicio": "Malnat.",
-            "tags": [
-                "despectiu"
-            ],
             "font": {
                 "nom": "Atzucac.cat",
                 "url": "https://atzucac.cat/insultem-i-blasfemem-pero-en-catala/"
-            }
+            },
+            "paraula": "Malparit",
+            "tags": [
+                "despectiu"
+            ]
         },
         {
-            "paraula": "Tros de quòniam",
             "definicio": "Persona d’intel·ligència obtusa.",
-            "tags": [
-                "despectiu"
-            ],
             "font": {
                 "nom": "Atzucac.cat",
                 "url": "https://atzucac.cat/insultem-i-blasfemem-pero-en-catala/"
-            }
+            },
+            "paraula": "Tros de quòniam",
+            "tags": [
+                "despectiu"
+            ]
         },
         {
-            "paraula": "Flasca",
             "definicio": "Fleuma.",
-            "tags": [
-                "despectiu"
-            ],
             "font": {
                 "nom": "Atzucac.cat",
                 "url": "https://atzucac.cat/insultem-i-blasfemem-pero-en-catala/"
-            }
+            },
+            "paraula": "Flasca",
+            "tags": [
+                "despectiu"
+            ]
         },
         {
+            "definicio": "Persona poc seriosa.",
+            "font": {
+                "nom": "Atzucac.cat",
+                "url": "https://atzucac.cat/insultem-i-blasfemem-pero-en-catala/"
+            },
             "paraula": "Taral·lirot",
-            "definicio": "Persona poc seriosa.",
             "tags": [
                 "despectiu"
-            ],
-            "font": {
-                "nom": "Atzucac.cat",
-                "url": "https://atzucac.cat/insultem-i-blasfemem-pero-en-catala/"
-            }
+            ]
         },
         {
-            "paraula": "Llondro",
             "definicio": "Persona de poca intel·ligència.",
-            "tags": [
-                "despectiu"
-            ],
             "font": {
                 "nom": "Atzucac.cat",
                 "url": "https://atzucac.cat/insultem-i-blasfemem-pero-en-catala/"
-            }
+            },
+            "paraula": "Llondro",
+            "tags": [
+                "despectiu"
+            ]
         },
         {
-            "paraula": "Abraçafanals",
             "definicio": "Adulador.",
-            "tags": [
-                "despectiu"
-            ],
             "font": {
                 "nom": "Atzucac.cat",
                 "url": "https://atzucac.cat/insultem-i-blasfemem-pero-en-catala/"
-            }
+            },
+            "paraula": "Abraçafanals",
+            "tags": [
+                "despectiu"
+            ]
         },
         {
-            "paraula": "Afaitapagesos",
             "definicio": "Persona que procura treure profit de la gent amb males arts.",
-            "tags": [
-                "despectiu"
-            ],
             "font": {
                 "nom": "Atzucac.cat",
                 "url": "https://atzucac.cat/insultem-i-blasfemem-pero-en-catala/"
-            }
+            },
+            "paraula": "Afaitapagesos",
+            "tags": [
+                "despectiu"
+            ]
         },
         {
-            "paraula": "Bordegàs",
             "definicio": "Persona que no és de bona llei.",
-            "tags": [
-                "despectiu"
-            ],
             "font": {
                 "nom": "Atzucac.cat",
                 "url": "https://atzucac.cat/insultem-i-blasfemem-pero-en-catala/"
-            }
+            },
+            "paraula": "Bordegàs",
+            "tags": [
+                "despectiu"
+            ]
         },
         {
-            "paraula": "Pelacanyes",
             "definicio": "Persona pobra.",
-            "tags": [
-                "despectiu"
-            ],
             "font": {
                 "nom": "Atzucac.cat",
                 "url": "https://atzucac.cat/insultem-i-blasfemem-pero-en-catala/"
-            }
+            },
+            "paraula": "Pelacanyes",
+            "tags": [
+                "despectiu"
+            ]
         },
         {
-            "paraula": "Botifler",
             "definicio": "Que col·labora amb els enemics de la seva terra.",
-            "tags": [
-                "despectiu"
-            ],
             "font": {
                 "nom": "Atzucac.cat",
                 "url": "https://atzucac.cat/insultem-i-blasfemem-pero-en-catala/"
-            }
+            },
+            "paraula": "Botifler",
+            "tags": [
+                "despectiu"
+            ]
         },
         {
-            "paraula": "Estaquirot",
             "definicio": "Inútil, que fa nosa.",
-            "tags": [
-                "despectiu"
-            ],
             "font": {
                 "nom": "Atzucac.cat",
                 "url": "https://atzucac.cat/insultem-i-blasfemem-pero-en-catala/"
-            }
+            },
+            "paraula": "Estaquirot",
+            "tags": [
+                "despectiu"
+            ]
         },
         {
-            "paraula": "Baliga-balaga",
             "definicio": "Persona poc seriosa.",
-            "tags": [
-                "despectiu"
-            ],
             "font": {
                 "nom": "Atzucac.cat",
                 "url": "https://atzucac.cat/insultem-i-blasfemem-pero-en-catala/"
-            }
+            },
+            "paraula": "Baliga-balaga",
+            "tags": [
+                "despectiu"
+            ]
         },
         {
-            "paraula": "Bagassa",
             "definicio": "Prostituta.",
-            "tags": [
-                "despectiu"
-            ],
             "font": {
                 "nom": "Atzucac.cat",
                 "url": "https://atzucac.cat/insultem-i-blasfemem-pero-en-catala/"
-            }
+            },
+            "paraula": "Bagassa",
+            "tags": [
+                "despectiu"
+            ]
         },
         {
-            "paraula": "Brètol",
             "definicio": "Persona sense escrúpols ni respecte.",
-            "tags": [
-                "despectiu"
-            ],
             "font": {
                 "nom": "Atzucac.cat",
                 "url": "https://atzucac.cat/insultem-i-blasfemem-pero-en-catala/"
-            }
+            },
+            "paraula": "Brètol",
+            "tags": [
+                "despectiu"
+            ]
         },
         {
-            "paraula": "Galifardeu",
             "definicio": "Persona traïdora i covarda.",
-            "tags": [
-                "despectiu"
-            ],
             "font": {
                 "nom": "Atzucac.cat",
                 "url": "https://atzucac.cat/insultem-i-blasfemem-pero-en-catala/"
-            }
+            },
+            "paraula": "Galifardeu",
+            "tags": [
+                "despectiu"
+            ]
         },
         {
-            "paraula": "Llepaculs",
             "definicio": "Aquell que és adulador.",
-            "tags": [
-                "despectiu"
-            ],
             "font": {
                 "nom": "Atzucac.cat",
                 "url": "https://atzucac.cat/insultem-i-blasfemem-pero-en-catala/"
-            }
+            },
+            "paraula": "Llepaculs",
+            "tags": [
+                "despectiu"
+            ]
         },
         {
-            "paraula": "Beneit",
             "definicio": "Ximple.",
-            "tags": [
-                "despectiu"
-            ],
             "font": {
                 "nom": "Atzucac.cat",
                 "url": "https://atzucac.cat/insultem-i-blasfemem-pero-en-catala/"
-            }
+            },
+            "paraula": "Beneit",
+            "tags": [
+                "despectiu"
+            ]
         },
         {
-            "paraula": "Pixapins",
             "definicio": "Terme despectiu per anomenar els barcelonins.",
-            "tags": [
-                "despectiu"
-            ],
             "font": {
                 "nom": "Atzucac.cat",
                 "url": "https://atzucac.cat/insultem-i-blasfemem-pero-en-catala/"
-            }
+            },
+            "paraula": "Pixapins",
+            "tags": [
+                "despectiu"
+            ]
         },
         {
-            "paraula": "Bleda assolellada",
             "definicio": "Figaflor.",
-            "tags": [
-                "despectiu"
-            ],
             "font": {
                 "nom": "Atzucac.cat",
                 "url": "https://atzucac.cat/insultem-i-blasfemem-pero-en-catala/"
-            }
+            },
+            "paraula": "Bleda assolellada",
+            "tags": [
+                "despectiu"
+            ]
         },
         {
-            "paraula": "Sòmines",
             "definicio": "Encantat, mancat d’agilitat mental.",
-            "tags": [
-                "despectiu"
-            ],
             "font": {
                 "nom": "Atzucac.cat",
                 "url": "https://atzucac.cat/insultem-i-blasfemem-pero-en-catala/"
-            }
+            },
+            "paraula": "Sòmines",
+            "tags": [
+                "despectiu"
+            ]
         },
         {
-            "paraula": "Enze",
             "definicio": "Aturat, mancat d’iniciativa i d’enteniment.",
-            "tags": [
-                "despectiu"
-            ],
             "font": {
                 "nom": "Atzucac.cat",
                 "url": "https://atzucac.cat/insultem-i-blasfemem-pero-en-catala/"
-            }
+            },
+            "paraula": "Enze",
+            "tags": [
+                "despectiu"
+            ]
         },
         {
-            "paraula": "Camacurt",
             "definicio": "De cames curtes.",
-            "tags": [
-                "despectiu"
-            ],
             "font": {
                 "nom": "Atzucac.cat",
                 "url": "https://atzucac.cat/insultem-i-blasfemem-pero-en-catala/"
-            }
+            },
+            "paraula": "Camacurt",
+            "tags": [
+                "despectiu"
+            ]
         },
         {
-            "paraula": "Capsigrany",
             "definicio": "Amb molt poc seny.",
-            "tags": [
-                "despectiu"
-            ],
             "font": {
                 "nom": "Atzucac.cat",
                 "url": "https://atzucac.cat/insultem-i-blasfemem-pero-en-catala/"
-            }
+            },
+            "paraula": "Capsigrany",
+            "tags": [
+                "despectiu"
+            ]
         },
         {
-            "paraula": "Curt de gambals",
             "definicio": "Curt d’enteniment.",
-            "tags": [
-                "despectiu"
-            ],
             "font": {
                 "nom": "Atzucac.cat",
                 "url": "https://atzucac.cat/insultem-i-blasfemem-pero-en-catala/"
-            }
+            },
+            "paraula": "Curt de gambals",
+            "tags": [
+                "despectiu"
+            ]
         },
         {
-            "paraula": "Figaflor",
             "definicio": "Amb poc caràcter i decisió, poruc.",
-            "tags": [
-                "despectiu",
-                "vegetal"
-            ],
             "font": {
                 "nom": "Atzucac.cat",
                 "url": "https://atzucac.cat/insultem-i-blasfemem-pero-en-catala/"
-            }
+            },
+            "paraula": "Figaflor",
+            "tags": [
+                "despectiu",
+                "vegetal"
+            ]
         },
         {
-            "paraula": "Pastanaga",
             "definicio": "Que té poc seny.",
+            "font": {
+                "nom": "Atzucac.cat",
+                "url": "https://atzucac.cat/insultem-i-blasfemem-pero-en-catala/"
+            },
+            "paraula": "Pastanaga",
             "tags": [
                 "despectiu",
                 "vegetal"
-            ],
-            "font": {
-                "nom": "Atzucac.cat",
-                "url": "https://atzucac.cat/insultem-i-blasfemem-pero-en-catala/"
-            }
+            ]
         },
         {
-            "paraula": "Tanoca",
             "definicio": "Babau, curt.",
-            "tags": [
-                "despectiu"
-            ],
             "font": {
                 "nom": "Atzucac.cat",
                 "url": "https://atzucac.cat/insultem-i-blasfemem-pero-en-catala/"
-            }
+            },
+            "paraula": "Tanoca",
+            "tags": [
+                "despectiu"
+            ]
         },
         {
-            "paraula": "Tòtil",
             "definicio": "Encantat.",
-            "tags": [
-                "despectiu"
-            ],
             "font": {
                 "nom": "Atzucac.cat",
                 "url": "https://atzucac.cat/insultem-i-blasfemem-pero-en-catala/"
-            }
+            },
+            "paraula": "Tòtil",
+            "tags": [
+                "despectiu"
+            ]
         },
         {
-            "paraula": "Llanut",
             "definicio": "Ignorant, neci.",
-            "tags": [
-                "despectiu"
-            ],
             "font": {
                 "nom": "Atzucac.cat",
                 "url": "https://atzucac.cat/insultem-i-blasfemem-pero-en-catala/"
-            }
+            },
+            "paraula": "Llanut",
+            "tags": [
+                "despectiu"
+            ]
         },
         {
-            "paraula": "Gamarús",
             "definicio": "Persona molt rude.",
-            "tags": [
-                "despectiu"
-            ],
             "font": {
                 "nom": "Atzucac.cat",
                 "url": "https://atzucac.cat/insultem-i-blasfemem-pero-en-catala/"
-            }
+            },
+            "paraula": "Gamarús",
+            "tags": [
+                "despectiu"
+            ]
         },
         {
-            "paraula": "Pallús",
             "definicio": "Aturat.",
-            "tags": [
-                "despectiu"
-            ],
             "font": {
                 "nom": "Atzucac.cat",
                 "url": "https://atzucac.cat/insultem-i-blasfemem-pero-en-catala/"
-            }
+            },
+            "paraula": "Pallús",
+            "tags": [
+                "despectiu"
+            ]
         },
         {
-            "paraula": "Dropo",
             "definicio": "Que fuig del treball.",
-            "tags": [
-                "despectiu"
-            ],
             "font": {
                 "nom": "Atzucac.cat",
                 "url": "https://atzucac.cat/insultem-i-blasfemem-pero-en-catala/"
-            }
+            },
+            "paraula": "Dropo",
+            "tags": [
+                "despectiu"
+            ]
         },
         {
-            "paraula": "Pòtol",
             "definicio": "Mandrós que no treballa.",
-            "tags": [
-                "despectiu"
-            ],
             "font": {
                 "nom": "Atzucac.cat",
                 "url": "https://atzucac.cat/insultem-i-blasfemem-pero-en-catala/"
-            }
+            },
+            "paraula": "Pòtol",
+            "tags": [
+                "despectiu"
+            ]
         },
         {
-            "paraula": "Talós",
             "definicio": "D’enteniment obtús.",
-            "tags": [
-                "despectiu"
-            ],
             "font": {
                 "nom": "Atzucac.cat",
                 "url": "https://atzucac.cat/insultem-i-blasfemem-pero-en-catala/"
-            }
+            },
+            "paraula": "Talós",
+            "tags": [
+                "despectiu"
+            ]
         },
         {
-            "paraula": "Trinxeraire",
             "definicio": "Persona pobre sense rumb.",
-            "tags": [
-                "despectiu"
-            ],
             "font": {
                 "nom": "Atzucac.cat",
                 "url": "https://atzucac.cat/insultem-i-blasfemem-pero-en-catala/"
-            }
+            },
+            "paraula": "Trinxeraire",
+            "tags": [
+                "despectiu"
+            ]
         },
         {
-            "paraula": "Cap de suro",
             "definicio": "De poca intel·ligència.",
-            "tags": [
-                "despectiu"
-            ],
             "font": {
                 "nom": "Atzucac.cat",
                 "url": "https://atzucac.cat/insultem-i-blasfemem-pero-en-catala/"
-            }
+            },
+            "paraula": "Cap de suro",
+            "tags": [
+                "despectiu"
+            ]
         },
         {
-            "paraula": "Pollós",
             "definicio": "Que té polls, persona bruta.",
-            "tags": [
-                "despectiu"
-            ],
             "font": {
                 "nom": "Atzucac.cat",
                 "url": "https://atzucac.cat/insultem-i-blasfemem-pero-en-catala/"
-            }
+            },
+            "paraula": "Pollós",
+            "tags": [
+                "despectiu"
+            ]
         },
         {
-            "paraula": "Abusananos",
             "definicio": "Aquell que s’aprofita dels més dèbils.",
-            "tags": [
-                "despectiu"
-            ],
             "font": {
                 "nom": "Atzucac.cat",
                 "url": "https://atzucac.cat/insultem-i-blasfemem-pero-en-catala/"
-            }
+            },
+            "paraula": "Abusananos",
+            "tags": [
+                "despectiu"
+            ]
         },
         {
-            "paraula": "Barbamec",
             "definicio": "Noiet que va d’home i que té poca barba.",
-            "tags": [
-                "despectiu"
-            ],
             "font": {
                 "nom": "Atzucac.cat",
                 "url": "https://atzucac.cat/insultem-i-blasfemem-pero-en-catala/"
-            }
+            },
+            "paraula": "Barbamec",
+            "tags": [
+                "despectiu"
+            ]
         },
         {
-            "paraula": "Pinxo",
             "definicio": "Que va de valent/dolent.",
-            "tags": [
-                "despectiu"
-            ],
             "font": {
                 "nom": "Atzucac.cat",
                 "url": "https://atzucac.cat/insultem-i-blasfemem-pero-en-catala/"
-            }
+            },
+            "paraula": "Pinxo",
+            "tags": [
+                "despectiu"
+            ]
         },
         {
-            "paraula": "Cul d’olla",
             "definicio": "Inútil.",
-            "tags": [
-                "despectiu"
-            ],
             "font": {
                 "nom": "Atzucac.cat",
                 "url": "https://atzucac.cat/insultem-i-blasfemem-pero-en-catala/"
-            }
+            },
+            "paraula": "Cul d’olla",
+            "tags": [
+                "despectiu"
+            ]
         },
         {
-            "paraula": "Cagabandúrries",
             "definicio": "Persona poc valenta que sempre s’està excusant per no donar la cara.",
-            "tags": [
-                "despectiu"
-            ],
             "font": {
                 "nom": "Atzucac.cat",
                 "url": "https://atzucac.cat/insultem-i-blasfemem-pero-en-catala/"
-            }
+            },
+            "paraula": "Cagabandúrries",
+            "tags": [
+                "despectiu"
+            ]
         },
         {
+            "definicio": "Covard.",
+            "font": {
+                "nom": "Atzucac.cat",
+                "url": "https://atzucac.cat/insultem-i-blasfemem-pero-en-catala/"
+            },
             "paraula": "Caganer",
-            "definicio": "Covard.",
             "tags": [
                 "despectiu"
-            ],
+            ]
+        },
+        {
+            "definicio": "Covard.",
             "font": {
                 "nom": "Atzucac.cat",
                 "url": "https://atzucac.cat/insultem-i-blasfemem-pero-en-catala/"
-            }
-        },
-        {
+            },
             "paraula": "Mitja merda",
-            "definicio": "Covard.",
             "tags": [
                 "despectiu"
-            ],
-            "font": {
-                "nom": "Atzucac.cat",
-                "url": "https://atzucac.cat/insultem-i-blasfemem-pero-en-catala/"
-            }
+            ]
         },
         {
-            "paraula": "Nap-buf",
             "definicio": "Criatura de poca alçada per l’edat que té.",
-            "tags": [
-                "despectiu"
-            ],
             "font": {
                 "nom": "Atzucac.cat",
                 "url": "https://atzucac.cat/insultem-i-blasfemem-pero-en-catala/"
-            }
+            },
+            "paraula": "Nap-buf",
+            "tags": [
+                "despectiu"
+            ]
         },
         {
-            "paraula": "Borinot",
             "definicio": "Que no calla mai, pesat.",
-            "tags": [
-                "despectiu"
-            ],
             "font": {
                 "nom": "Atzucac.cat",
                 "url": "https://atzucac.cat/insultem-i-blasfemem-pero-en-catala/"
-            }
+            },
+            "paraula": "Borinot",
+            "tags": [
+                "despectiu"
+            ]
         },
         {
-            "paraula": "Titella",
             "definicio": "Que es deixa manipular.",
-            "tags": [
-                "despectiu"
-            ],
             "font": {
                 "nom": "Atzucac.cat",
                 "url": "https://atzucac.cat/insultem-i-blasfemem-pero-en-catala/"
-            }
+            },
+            "paraula": "Titella",
+            "tags": [
+                "despectiu"
+            ]
         },
         {
-            "paraula": "Cagadubtes",
             "definicio": "Dit de la persona molt indecisa.",
-            "tags": [
-                "despectiu"
-            ],
             "font": {
                 "nom": "Atzucac.cat",
                 "url": "https://atzucac.cat/insultem-i-blasfemem-pero-en-catala/"
-            }
+            },
+            "paraula": "Cagadubtes",
+            "tags": [
+                "despectiu"
+            ]
         },
         {
-            "paraula": "Poca-traça",
             "definicio": "Persona que no té traça, maldestre.",
-            "tags": [
-                "despectiu"
-            ],
             "font": {
                 "nom": "Atzucac.cat",
                 "url": "https://atzucac.cat/insultem-i-blasfemem-pero-en-catala/"
-            }
+            },
+            "paraula": "Poca-traça",
+            "tags": [
+                "despectiu"
+            ]
         },
         {
-            "paraula": "Sapastre",
             "definicio": "Dit de la persona que fa la feina malament.",
-            "tags": [
-                "despectiu"
-            ],
             "font": {
                 "nom": "Atzucac.cat",
                 "url": "https://atzucac.cat/insultem-i-blasfemem-pero-en-catala/"
-            }
+            },
+            "paraula": "Sapastre",
+            "tags": [
+                "despectiu"
+            ]
         },
         {
-            "paraula": "Llepafils",
             "definicio": "Molt maniàtic amb el menjar, aplicable a altres facetes de la vida.",
-            "tags": [
-                "despectiu"
-            ],
             "font": {
                 "nom": "Atzucac.cat",
                 "url": "https://atzucac.cat/insultem-i-blasfemem-pero-en-catala/"
-            }
+            },
+            "paraula": "Llepafils",
+            "tags": [
+                "despectiu"
+            ]
         },
         {
-            "paraula": "Poca-solta",
             "definicio": "Poc formal.",
-            "tags": [
-                "despectiu"
-            ],
             "font": {
                 "nom": "Atzucac.cat",
                 "url": "https://atzucac.cat/insultem-i-blasfemem-pero-en-catala/"
-            }
+            },
+            "paraula": "Poca-solta",
+            "tags": [
+                "despectiu"
+            ]
         },
         {
-            "paraula": "Nyèbit",
             "definicio": "Persona que no té la menor distinció.",
-            "tags": [
-                "despectiu"
-            ],
             "font": {
                 "nom": "Atzucac.cat",
                 "url": "https://atzucac.cat/insultem-i-blasfemem-pero-en-catala/"
-            }
+            },
+            "paraula": "Nyèbit",
+            "tags": [
+                "despectiu"
+            ]
         },
         {
-            "paraula": "Cap de trons",
             "definicio": "Esbojarrat.",
-            "tags": [
-                "despectiu"
-            ],
             "font": {
                 "nom": "Atzucac.cat",
                 "url": "https://atzucac.cat/insultem-i-blasfemem-pero-en-catala/"
-            }
+            },
+            "paraula": "Cap de trons",
+            "tags": [
+                "despectiu"
+            ]
         },
         {
-            "paraula": "Banyut",
             "definicio": "Que li han posat les banyes.",
-            "tags": [
-                "despectiu"
-            ],
             "font": {
                 "nom": "Atzucac.cat",
                 "url": "https://atzucac.cat/insultem-i-blasfemem-pero-en-catala/"
-            }
+            },
+            "paraula": "Banyut",
+            "tags": [
+                "despectiu"
+            ]
         },
         {
-            "paraula": "Calçasses",
             "definicio": "Persona que es deixa manipular per la seva parella.",
-            "tags": [
-                "despectiu"
-            ],
             "font": {
                 "nom": "Atzucac.cat",
                 "url": "https://atzucac.cat/insultem-i-blasfemem-pero-en-catala/"
-            }
-        },
-        {
-            "paraula": "Destrellatat",
-            "definicio": "Persona informal, que no té trellat.",
+            },
+            "paraula": "Calçasses",
             "tags": [
                 "despectiu"
-            ],
+            ]
+        },
+        {
+            "definicio": "Persona informal, que no té trellat.",
             "font": {
                 "nom": "diccionarivalencia.com",
                 "url": "https://diccionarivalencia.com/destrellatat"
-            }
+            },
+            "paraula": "Destrellatat",
+            "tags": [
+                "despectiu"
+            ]
         },
         {
-            "paraula": "Bajoca",
             "definicio": "Dit de la persona sense cap malícia, que és bona de natural o excessivament condescendent; babau, bonàs, calçasses.",
-            "tags": [
-                "despectiu",
-                "vegetal"
-            ],
             "font": {
                 "nom": "rodamots.cat",
                 "url": "https://rodamots.cat/bajoc-a/"
-            }
+            },
+            "paraula": "Bajoca",
+            "tags": [
+                "despectiu",
+                "vegetal"
+            ]
         },
         {
-            "paraula": "Bleda",
             "definicio": "Poc espavilat, que no té vigor.",
-            "tags": [
-                "despectiu",
-                "vegetal"
-            ],
             "font": {
                 "nom": "AVL",
                 "url": "http://www.avl.gva.es/lexicval/"
-            }
+            },
+            "paraula": "Bleda",
+            "tags": [
+                "despectiu",
+                "vegetal"
+            ]
         },
         {
-            "paraula": "Figamolla / Figamústia",
             "definicio": "Persona sense energia ni caràcter.",
-            "tags": [
-                "despectiu",
-                "vegetal"
-            ],
             "font": {
                 "nom": "AVL",
                 "url": "http://www.avl.gva.es/lexicval/"
-            }
+            },
+            "paraula": "Figamolla / Figamústia",
+            "tags": [
+                "despectiu",
+                "vegetal"
+            ]
         },
         {
-            "paraula": "Fava",
             "definicio": "Que no té gens de malícia, innocent. No sigues fava. El teu amic és una miqueta fava.",
-            "tags": [
-                "despectiu",
-                "vegetal"
-            ],
             "font": {
                 "nom": "AVL",
                 "url": "http://www.avl.gva.es/lexicval/"
-            }
+            },
+            "paraula": "Fava",
+            "tags": [
+                "despectiu",
+                "vegetal"
+            ]
         },
         {
-            "paraula": "Panfígol",
             "definicio": "Versió masculina de Figamolla: Persona sense energia ni caràcter.",
-            "tags": [
-                "despectiu",
-                "vegetal"
-            ],
             "font": {
                 "nom": "AVL",
                 "url": "http://www.avl.gva.es/lexicval/"
-            }
-        },
-        {
-            "paraula": "Cap de meló / Cap de carbassa",
-            "definicio": "Curt d’enteniment",
+            },
+            "paraula": "Panfígol",
             "tags": [
                 "despectiu",
                 "vegetal"
-            ],
+            ]
+        },
+        {
+            "definicio": "Curt d’enteniment",
             "font": {
                 "nom": "Softcatalà",
                 "url": "https://www.softcatala.org/diccionari-de-sinonims/paraula/cap%20de%20mel%C3%B3/"
-            }
-        },
-        {
-            "paraula": "Moniato",
-            "definicio": "Aquell que, amb una actitud petulant, vol fer creure als altres que és una persona important o que sap molt més del que realment sap.",
+            },
+            "paraula": "Cap de meló / Cap de carbassa",
             "tags": [
                 "despectiu",
                 "vegetal"
-            ],
+            ]
+        },
+        {
+            "definicio": "Aquell que, amb una actitud petulant, vol fer creure als altres que és una persona important o que sap molt més del que realment sap.",
             "font": {
                 "nom": "AVL",
                 "url": "https://www.avl.gva.es/web/publicacions/moniato"
-            }
+            },
+            "paraula": "Moniato",
+            "tags": [
+                "despectiu",
+                "vegetal"
+            ]
         },
         {
-            "paraula": "Nyicris",
             "definicio": "Persona escarransida, escanyolida, malaltissa.",
-            "tags": [
-                "despectiu"
-            ],
             "font": {
                 "nom": "Rodamots",
                 "url": "https://rodamots.cat/nyicris/"
-            }
-        },
-        {
-            "paraula": "Meuca",
-            "definicio": "Prostituta.",
+            },
+            "paraula": "Nyicris",
             "tags": [
                 "despectiu"
-            ],
+            ]
+        },
+        {
+            "definicio": "Prostituta.",
             "font": {
                 "nom": "Tocat del bolet",
                 "url": "https://tocatdelbolet.cat/top-10-insults-catalans/"
-            }
-        },
-        {
-            "paraula": "Bocamoll",
-            "definicio": "Que diu allò que caldria callar, que tot ho xerra.",
+            },
+            "paraula": "Meuca",
             "tags": [
                 "despectiu"
-            ],
+            ]
+        },
+        {
+            "definicio": "Que diu allò que caldria callar, que tot ho xerra.",
             "font": {
                 "nom": "Rodamots",
                 "url": "https://rodamots.cat/bocamoll-a/"
-            }
+            },
+            "paraula": "Bocamoll",
+            "tags": [
+                "despectiu"
+            ]
         },
         {
-            "paraula": "Lluç",
             "definicio": "Curt, parat; persona poc espavilada.",
-            "tags": [
-                "despectiu",
-                "animal"
-            ],
             "font": {
                 "nom": "Rodamots",
                 "url": "https://rodamots.cat/lluc-2/"
-            }
+            },
+            "paraula": "Lluç",
+            "tags": [
+                "despectiu",
+                "animal"
+            ]
         },
         {
-            "paraula": "Ploramiques",
             "definicio": "Que plora per no res.",
-            "tags": [
-                "despectiu"
-            ],
             "font": {
                 "nom": "Rodamots",
                 "url": "https://rodamots.cat/ploramiques/"
-            }
-        },
-        {
-            "paraula": "Pocavergonya",
-            "definicio": "Dit d’una persona desvergonyida, que no es comporta com cal.",
+            },
+            "paraula": "Ploramiques",
             "tags": [
                 "despectiu"
-            ],
+            ]
+        },
+        {
+            "definicio": "Dit d’una persona desvergonyida, que no es comporta com cal.",
             "font": {
                 "nom": "Rodamots",
                 "url": "https://rodamots.cat/pocavergonya/"
-            }
-        },
-        {
-            "paraula": "Esgarriacries",
-            "definicio": "Persona que es plau a posar entrebancs, a importunar, a desfer els projectes, les converses, els jocs, etc.",
+            },
+            "paraula": "Pocavergonya",
             "tags": [
                 "despectiu"
-            ],
+            ]
+        },
+        {
+            "definicio": "Persona que es plau a posar entrebancs, a importunar, a desfer els projectes, les converses, els jocs, etc.",
             "font": {
                 "nom": "Diccionari.cat",
                 "url": "https://www.diccionari.cat/GDLC/esgarriacries"
-            }
+            },
+            "paraula": "Esgarriacries",
+            "tags": [
+                "despectiu"
+            ]
         },
         {
-            "paraula": "Soca/Tros de soca",
             "definicio": "Que és obtús o inepte.",
-            "tags": [
-                "despectiu",
-                "vegetal"
-            ],
             "font": {
                 "nom": "DNV",
                 "url": "https://www.avl.gva.es/lexicval/mobile/"
-            }
+            },
+            "paraula": "Soca/Tros de soca",
+            "tags": [
+                "despectiu",
+                "vegetal"
+            ]
         },
         {
-            "paraula": "Apardalat",
             "definicio": "Embadalit, babau.",
-            "tags": [
-                "despectiu"
-            ],
             "font": {
                 "nom": "DNV",
                 "url": "https://www.avl.gva.es/lexicval/mobile/"
-            }
+            },
+            "paraula": "Apardalat",
+            "tags": [
+                "despectiu"
+            ]
         },
         {
-            "paraula": "Esgarramantes",
             "definicio": "Malfaener, peresós.",
-            "tags": [
-                "despectiu"
-            ],
             "font": {
                 "nom": "DNV",
                 "url": "https://www.avl.gva.es/lexicval/mobile/"
-            }
+            },
+            "paraula": "Esgarramantes",
+            "tags": [
+                "despectiu"
+            ]
         },
         {
-            "paraula": "Carabassa",
             "definicio": "Persona que no esta bé del cap, esta boig",
-            "tags": [
-                "despectiu",
-                "vegetal"
-            ],
             "font": {
                 "nom": "DNV",
                 "url": "https://www.avl.gva.es/lexicval"
-            }
+            },
+            "paraula": "Carabassa",
+            "tags": [
+                "despectiu",
+                "vegetal"
+            ]
+        },
+        {
+            "definicio": "Es pot utilitzar el terme “ase” per descriure una persona curta d’enteniment o poc intel·ligent. També són molt populars altres formes com “tros d’ase” o “cap d’ase” i altres sinònims com “burro”.",
+            "font": {
+                "nom": "De Tot I Més",
+                "url": "https://detotimes.cat/insults/"
+            },
+            "paraula": "Ase",
+            "tags": [
+                "despectiu",
+                "animal"
+            ]
         }
     ]
 }
