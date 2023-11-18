@@ -881,6 +881,17 @@
                 "despectiu",
                 "animal"
             ]
+        },
+        {
+            "definicio": "Persona que fa les seves tasques de forma descuidada, sense posar-hi prou atenció ni dedicació.",
+            "font": {
+                "nom": "detotimes",
+                "url": "https://detotimes.cat/insults/"
+            },
+            "paraula": "Destraler",
+            "tags": [
+                "despectiu"
+            ]
         }
     ]
 }

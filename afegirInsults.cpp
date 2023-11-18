@@ -60,14 +60,19 @@ int main(void) {
         std::cout << "Introdueix la paraula: ";
         std::cin >> paraula;
         if (paraula == "STOP" || paraula == "FI") break;
+        bool alreadyExists = false;
         for (auto& insult : insults) {
             if (lower(insult["paraula"]) == lower(paraula)) {
                 std::cout << "La paraula ja existeix" << std::endl;
+                alreadyExists = true;
                 continue;
             }
         }
+        if (alreadyExists) continue;
         std::cout << "Introdueix la definicio: ";
-        std::getline(std::cin, definicio);
+        // Get a line from the user
+        std::cin.ignore();
+        getline(std::cin, definicio);
         std::cout << "Introdueix els tags separats per comes: ";
         std::cin >> tags;
         std::cout << "Introdueix el nom de la font: ";
@@ -93,6 +98,7 @@ int main(void) {
         font["nom"] = nom;
         font["url"] = url;
         insult["font"] = font;
+        std::cout << std::endl << insult.dump() << std::endl;
         insults.push_back(insult);
     }
 
@@ -114,7 +120,7 @@ int main(void) {
     // Close the output file stream
     outputFile.close();
 
-    std::cout << "Afegit insults a insults.json, Fes un commit per a realitzar els canvis" << std::endl;
+    std::cout << "Afegit insults a l'arxiu, Revisa'l i fes un commit per a realitzar els canvis" << std::endl;
 
     return 0;
 }
