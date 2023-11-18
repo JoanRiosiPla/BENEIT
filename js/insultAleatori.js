@@ -41,3 +41,24 @@ fetch('./insults.json?nocache=' + (new Date()).getTime())
     }
 
 });
+
+function updateRandom() {
+    // Insult ràndom
+    if (data == undefined) {
+        return;
+    }
+    const insult = data.insults[Math.floor(Math.random() * data.insults.length)];
+    insultEl = document.getElementById("insultAleatori");
+    if (insultEl) {
+        insultEl.innerHTML = insult.paraula;
+    }
+    insultEl = document.getElementById("insultAleatoriDefinicio");
+    if (insultEl) {
+        insultEl.innerHTML = insult.definicio;
+    }
+    insultEl = document.getElementById("insultAleatoriFont");
+    if (insultEl) {
+        insultEl.innerHTML = insult.font.nom;
+        insultEl.href = insult.font.url;
+    }
+}
