@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ca" data-bs-theme="light">
+<head>
+    <meta charset="utf-8">
+    <title>BENEIT</title>
+    <meta name="viewport" content="width=1280, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css?nocache=20">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-7XKX9MPEN3"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-7XKX9MPEN3');
+    </script>
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="76x76" href="./favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="./favicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-config" content="./favicons/browserconfig.xml">
+    <meta name="theme-color" content="#d6ffe2">
+
+    <!-- jQuerry -->
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <!-- Highlight Plugin -->
+    <script type="text/javascript" src="./js/raw.githubusercontent.com_bartaz_sandbox.js_master_jquery.highlight.js"></script>
+
+    <!-- Allow web app to be run in full-screen mode - iOS. -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="theme-color" content="#ecd96f">
+</head>
+
+<body>
+    <!-- Header bar with a logo, a name and a search bar -->
+    <div class="header">
+        <div class="widthLimited  d-flex flex-row align-items-center p-2 mb-3">
+            <img class="logo" src="./img/logo.png" alt="logo" id="logo">
+            <div class="name mx-2">
+                <h1>B.E.N.E.I.T.</h1>
+            </div>
+        </div>
+    </div>
+    <div class="widthLimited centralList">
+        <!-- Introducció a la pàgina -->
+        <div class="list-group mx-4 mb-2">
+            <div class="list-group-item d-flex flex-column align-items-center">
+                <p style="margin-bottom: 0.5rem;">
+                    Que t'has perdut? No hi ha res aquí. No sigues un/a
+                    <strong><span id="insult"></span></strong>
+                    i torna a la pàgina principal:
+                </p>
+                <button class="button" onclick="location.href='/'">Torna a la pàgina principal</button>
+            </div>
+            
+        </div>
+    </div>
+    <!-- Footer -->
+    <div class="footer">
+        <!-- Attribution to self nd to open source code used -->
+        <p> Lloc creat per <a href="https://github.com/JoanRiosiPla">Joan Rios i Pla</a>, a l'estiu de 2023.</p>
+        <p> Utilitzant el seguent codi obert: <br> "jQuery Highlight plugin" de <a href="https://bartaz.github.io/sandbox.js/jquery.highlight.html">Bartosz Wojciechowski</a> </p>
+    </div>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+<script>
+    // Get the domain
+    const domain = location.protocol + '//' + location.host + location.pathname;
+
+    // Get the search query
+    const queryString = window.location.search;
+    const urlParams = new URLSearchParams(queryString);
+    query = urlParams.get('search');
+
+    // Get elements
+    const searchBar = document.getElementById("searchBar");
+    const searchX = document.getElementById("search-x");
+
+    // Show X if there is a query
+    if (query) {
+        searchX.classList.remove("hidden");
+    }
+
+    var data;
+    // Get insults.json
+    fetch('./insults.json?nocache=' + (new Date()).getTime())
+    .then(response => response.json())
+    .then(jsonData => {
+        console.log('Fetched insults.json');
+        data = jsonData; 
+        // Insult ràndom
+        const insult = data.insults[Math.floor(Math.random() * data.insults.length)].paraula;
+        document.getElementById("insult").innerHTML = insult;
+    });
+
+
+
+</script>
+<script>
+    // Adapt site scale to screen size
+    setTimeout(function() {
+        if (screen.width < 1280) {
+            document.querySelector('meta[name="viewport"]').setAttribute('content', 'width='+screen.width+'');
+        }
+        if (screen.width > 1280) {
+            document.querySelector('meta[name="viewport"]').setAttribute('content', 'width=1280');
+        }
+    }, 50);
+
+</script>
+</html>
