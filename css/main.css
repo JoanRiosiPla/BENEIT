@@ -26,6 +26,7 @@ a
 
 button
 {
+    color: var(--text) !important;
     background-color: var(--secondary);
     border: 1px solid var(--primary);
     border-radius: 5px !important;
