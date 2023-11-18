@@ -42,6 +42,8 @@ fetch('./insults.json?nocache=' + (new Date()).getTime())
 
 });
 
+document.getElementsByClassName("insultAleatoriButton")[0].addEventListener("click", updateRandom);
+
 function updateRandom() {
     // Insult ràndom
     if (data == undefined) {
