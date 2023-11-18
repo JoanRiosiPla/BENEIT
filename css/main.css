@@ -91,6 +91,7 @@ input[type=text]
     width: auto;
     height: 50px;
     object-fit: contain;
+    cursor: pointer;
 }
 
 .widthLimited
