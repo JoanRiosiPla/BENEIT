@@ -25,6 +25,19 @@ fetch('./insults.json?nocache=' + (new Date()).getTime())
     console.log('Fetched insults.json');
     data = jsonData; 
     // Insult ràndom
-    const insult = data.insults[Math.floor(Math.random() * data.insults.length)].paraula;
-    document.getElementById("insultAleatori").innerHTML = insult;
+    const insult = data.insults[Math.floor(Math.random() * data.insults.length)];
+    insultEl = document.getElementById("insultAleatori");
+    if (insultEl) {
+        insultEl.innerHTML = insult.paraula;
+    }
+    insultEl = document.getElementById("insultAleatoriDefinicio");
+    if (insultEl) {
+        insultEl.innerHTML = insult.definicio;
+    }
+    insultEl = document.getElementById("insultAleatoriFont");
+    if (insultEl) {
+        insultEl.innerHTML = insult.font.nom;
+        insultEl.href = insult.font.url;
+    }
+
 });
