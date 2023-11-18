@@ -130,3 +130,11 @@ input[type=text]
 {
     color: white !important;
 }
+
+.nou::before {
+    content: "Nou!";
+    color: white;
+    background-color: var(--accent);
+    border-radius: 5px;
+    padding: 2px;
+}
