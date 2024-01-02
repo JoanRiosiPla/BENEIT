@@ -1,7 +1,7 @@
 {
     "insults": [
         {
-            "definicio": "Persona que fa anar malament un pla precist",
+            "definicio": "Persona que fa anar malament un pla previst.",
             "font": {
                 "nom": "Viccionari",
                 "url": "https://ca.m.wiktionary.org/wiki/aixafaguitarres"
@@ -404,13 +404,13 @@
                 "nom": "Atzucac.cat",
                 "url": "https://atzucac.cat/insultem-i-blasfemem-pero-en-catala/"
             },
-            "paraula": "Talós",
+            "paraula": "Talòs",
             "tags": [
                 "despectiu"
             ]
         },
         {
-            "definicio": "Persona pobre sense rumb.",
+            "definicio": "Persona pobra sense rumb.",
             "font": {
                 "nom": "Atzucac.cat",
                 "url": "https://atzucac.cat/insultem-i-blasfemem-pero-en-catala/"
@@ -723,7 +723,7 @@
             ]
         },
         {
-            "definicio": "Curt d’enteniment",
+            "definicio": "Curt d’enteniment.",
             "font": {
                 "nom": "Softcatalà",
                 "url": "https://www.softcatala.org/diccionari-de-sinonims/paraula/cap%20de%20mel%C3%B3/"
@@ -859,7 +859,7 @@
             ]
         },
         {
-            "definicio": "Persona que no esta bé del cap, esta boig",
+            "definicio": "Persona que no està bé del cap, està boig.",
             "font": {
                 "nom": "DNV",
                 "url": "https://www.avl.gva.es/lexicval"
