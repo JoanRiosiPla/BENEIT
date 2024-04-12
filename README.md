@@ -22,7 +22,7 @@ Actualment, hi ha 2 opcions:
 
 ### Correr el servidor flask
 #### Desenvolupament (Windows)
-Iniciar un venv: `python3 -m venv venv`
-Activar el venv: `venv\Scripts\activate`
-Instal·lar les dependencies: `pip install -r requirements.txt`
-Executar el servidor: ` flask run --host="0.0.0.0" --debug`
+- Iniciar un venv: `python3 -m venv venv`
+- Activar el venv: `venv\Scripts\activate`
+- Instal·lar les dependencies: `pip install -r requirements.txt`
+- Executar el servidor: ` flask run --host="0.0.0.0" --debug`
