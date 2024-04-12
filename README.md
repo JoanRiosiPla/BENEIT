@@ -18,3 +18,11 @@ Actualment, hi ha 2 opcions:
 ### Llicències i codi obert
 - S'ha utilitzat la llibreria de c++ de Niels Lohmann [JSON for Modern C++](https://github.com/nlohmann/json) sota la llicència [MIT](https://github.com/nlohmann/json/blob/develop/LICENSE.MIT)
 - S'ha utilitzat el jQuerry Highlight Plugin de Johann Burkard sota la llicència [MIT](https://opensource.org/license/mit/)
+- S'ha utilitzat Flask, una llibreria de Python sota la llicència [BSD](https://opensource.org/licenses/BSD-3-Clause)
+
+### Correr el servidor flask
+#### Desenvolupament (Windows)
+Iniciar un venv: `python3 -m venv venv`
+Activar el venv: `venv\Scripts\activate`
+Instal·lar les dependencies: `pip install -r requirements.txt`
+Executar el servidor: ` flask run --host="0.0.0.0" --debug`

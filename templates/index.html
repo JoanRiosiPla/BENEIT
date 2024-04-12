@@ -1,0 +1,220 @@
+{% extends 'base.html' %}
+{% block title %}BENEIT{% endblock %}
+
+{% block body %}
+    <!-- Header bar with a logo, a name and a search bar -->
+    <div class="header">
+        <div class="widthLimited  d-flex flex-row align-items-center p-2 mb-3">
+            <img class="logo" src="./static/img/logo.png" alt="logo" id="logo" onclick="window.location='/'">
+            <div class="name mx-2">
+                <h1>BENEIT</h1>
+            </div>
+            <button class="ms-auto hidden" id="search-x">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+                    <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                </svg>
+            </button>
+            <input type="text" id="searchBar" placeholder="Cerca per nom, font o tag...">
+        </div>
+    </div>
+    <div class="widthLimited centralList">
+        <!-- Introducció a la pàgina -->
+        <div class="list-group mx-4 mb-2">
+            <div class="list-group-item">
+                Aquesta és una web amb tots els insults en valencià/català/balear creada amb l'objectiu de conservar la nostra meravellosa cultura dels insults.
+            </div>
+            <div class="list-group-item" id="recompte">
+                Actualment, a la base de dades hi tenim 
+                <b>
+                    <div class="spinner-border spinner-border-sm" role="status"></div>
+                </b>
+                 insults, si en voleu afegir més, visiteu el nostre <a href="https://github.com/JoanRiosiPla/BENEIT">GitHub</a> o afegiu paraules a través del <a href="https://docs.google.com/forms/d/e/1FAIpQLSfaUMh9FfrHljv75PoBfhMX-3EK5Fn8CoukRFBO5fl0eYxjlQ/viewform?usp=sf_link">Formulari</a>.
+            </div>
+            <div class="list-group-item">
+                <span class="nou"></span>
+                Obtén un insult aleatori: <button class="button" onclick="location.href='/aleatori'">Insult aleatori</button>
+            </div>
+        </div>
+        <!-- La llista de paraules -->
+        <div class="word-list list-group mx-4 mb-4">
+            <!-- Loader inicial, després desapareix -->
+            <div class="d-flex justify-content-center list-group-item">
+                <div class="spinner-border ml-auto" role="status" aria-hidden="true"></div>
+            </div>
+            <!-- Fí del loader inicial -->
+        </div>
+    </div>
+    <!-- Footer -->
+    <div class="footer">
+        <!-- Attribution to self nd to open source code used -->
+        <p> Lloc creat per <a href="https://github.com/JoanRiosiPla">Joan Rios i Pla</a>, a l'estiu de 2023.</p>
+        <p> Utilitzant el seguent codi obert: <br> "jQuery Highlight plugin" de <a href="https://bartaz.github.io/sandbox.js/jquery.highlight.html">Bartosz Wojciechowski</a> </p>
+    </div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+<script>
+    // Get the domain
+    const domain = location.protocol + '//' + location.host + location.pathname;
+
+    // Get the search query
+    const queryString = window.location.search;
+    const urlParams = new URLSearchParams(queryString);
+    query = urlParams.get('search');
+
+    // Get elements
+    const searchBar = document.getElementById("searchBar");
+    const searchX = document.getElementById("search-x");
+
+    // Show X if there is a query
+    if (query) {
+        searchX.classList.remove("hidden");
+    }
+
+    var data;
+    // Get static/insults.json
+    fetch('./static/insults.json?nocache=' + (new Date()).getTime())
+    .then(response => response.json())
+    .then(jsonData => {
+        console.log('Fetched static/insults.json');
+        data = jsonData; 
+        update(data, query);
+        // Add the number of words
+        document.getElementById("recompte").innerHTML = `Actualment, a la base de dades hi tenim <b>${data["insults"].length}</b> insults, si en voleu afegir més, visiteu el nostre <a href="https://github.com/JoanRiosiPla/BENEIT">GitHub</a> o afegiu paraules a través del <a href="https://docs.google.com/forms/d/e/1FAIpQLSfaUMh9FfrHljv75PoBfhMX-3EK5Fn8CoukRFBO5fl0eYxjlQ/viewform?usp=sf_link">Formulari</a>.`
+    });
+
+    searchBar.value = query;
+    searchBar.addEventListener("input", () => {
+        update(data, event.target.value);
+        if (event.target.value != '') {
+            searchX.classList.remove("hidden");
+        } else {
+            searchX.classList.add("hidden");
+        }
+    });
+    searchX.addEventListener("click", () => {
+        searchBar.value = '';
+        update(data);
+        searchX.classList.add("hidden");
+    });
+
+    function update(data, search) {
+        // Get the word list
+        let wordList = document.querySelector('.word-list');
+        // Clear the word list
+        wordList.innerHTML = '';
+        // Sort the words by alphabetical order
+        data.insults.sort((a, b) => {
+            if (a.paraula < b.paraula) {
+                return -1;
+            }
+            if (a.paraula > b.paraula) {
+                return 1;
+            }
+            return 0;
+        });
+        // For each word in the json file
+        for (let i = 0; i < data.insults.length; i++) {
+            word = data.insults[i];
+            if (
+                search && 
+                !(
+                    word.paraula.toLowerCase().includes(search.toLowerCase())
+                    || word.definicio.toLowerCase().includes(search.toLowerCase())
+                    || word.tags.includes(search.toLowerCase())
+                    || word.font.nom.toLowerCase() == (search.toLowerCase())
+                )) {
+                continue;
+            }
+            // Create a new list item
+            wordList.appendChild(createListItem(
+                word.paraula,
+                word.definicio,
+                word.tags,
+                word.font.nom,
+                word.font.url,
+                ""
+            ));
+        };
+        if (wordList.innerHTML == '') {
+            wordList.appendChild(createListItem(
+                "Cap Resultat",
+                "No s'ha trobat cap resultat per a la cerca '" + search + "', si voleu afegir la paraula a la base de dades, visiteu el nostre <a href=\"https://github.com/JoanRiosiPla/BENEIT\">GitHub</a> o afegiu-la a través del <a href=\"https://docs.google.com/forms/d/e/1FAIpQLSfaUMh9FfrHljv75PoBfhMX-3EK5Fn8CoukRFBO5fl0eYxjlQ/viewform?usp=sf_link\">Formulari</a>.",
+                "",
+                "",
+                "",
+                "warning"
+            ));
+        }
+        else {
+            wordList.appendChild(createListItem(
+                "Trobeu a faltar alguna paraula?",
+                "Per a afegir la paraula a la base de dades, visiteu el nostre <a href=\"https://github.com/JoanRiosiPla/BENEIT\">GitHub</a> o afegiu-la a través del <a href=\"https://docs.google.com/forms/d/e/1FAIpQLSfaUMh9FfrHljv75PoBfhMX-3EK5Fn8CoukRFBO5fl0eYxjlQ/viewform?usp=sf_link\">Formulari</a>.",
+                "",
+                "",
+                "",
+                "warning"
+            ));
+        }
+        if (search) {
+            // Highlight the search query
+            $('.word-list').highlight(search);
+        }
+    }
+
+    function createListItem(paraula, definicio, tags, nom, url, type) {
+        let listItem = document.createElement('div');
+        listItem.classList.add('list-group-item', 'list-group-item-action', 'list-group-item-' + type);
+        listItem.setAttribute('aria-current', 'true');
+        // Create a new div for the word and the tags
+        let div = document.createElement('div');
+        div.classList.add('d-flex', 'w-100', 'justify-content-between');
+        // Create a new h5 for the word
+        let h5 = document.createElement('h5');
+        h5.classList.add('mb-1');
+        h5.innerText = paraula;
+        // Create a new small for the tags
+        let small = document.createElement('small');
+        small.classList.add('tags');
+        small.innerText = tags;
+        // Create a new p for the definition
+        let p = document.createElement('p');
+        p.classList.add('mb-1');
+        p.innerHTML = definicio;
+        // Create a new small for the font
+        let smallFont = document.createElement('small');
+        let smallFontA = document.createElement('a');
+        smallFont.classList.add('font');
+        smallFontA.innerText = nom;
+        smallFontA.setAttribute('href', url);
+        smallFont.appendChild(smallFontA);
+        // Append the h5 and the small to the div
+        div.appendChild(h5);
+        div.appendChild(small);
+        // Append the div, the p and the smallFont to the list item
+        listItem.appendChild(div);
+        listItem.appendChild(p);
+        listItem.appendChild(smallFont);
+        // If the word is clicked, search for it
+        if (type != "warning")
+        {
+            listItem.addEventListener("click", () => {
+                window.location.href = domain + '?search=' + paraula;
+            });
+        }
+        // Append the list item to the word list
+        return listItem;
+    }
+</script>
+<script>
+    // Adapt site scale to screen size
+    setTimeout(function() {
+        if (screen.width < 1280) {
+            document.querySelector('meta[name="viewport"]').setAttribute('content', 'width='+screen.width+'');
+        }
+        if (screen.width > 1280) {
+            document.querySelector('meta[name="viewport"]').setAttribute('content', 'width=1280');
+        }
+    }, 50);
+
+</script>
+{% endblock %}

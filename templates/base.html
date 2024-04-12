@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ca" data-bs-theme="light">
+<head>
+    <meta charset="utf-8">
+	<!-- SEO -->
+    <title>{% block title %}{% endblock %}</title>
+	<meta name="author" content="Joan Rios">
+	<meta name="description" content="Conservant la cultura dels insults en valencià/català/balear. Afegiu paraules a través del nostre GitHub o Formulari.">
+	<!-- Things -->
+	<meta name="viewport" content="width=1280, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="static/css/main.css?nocache=20">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-7XKX9MPEN3"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-7XKX9MPEN3');
+    </script>
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="76x76" href="./static/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./static/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./static/favicons/favicon-16x16.png">
+    <link rel="manifest" href="./static/favicons/site.webmanifest">
+    <link rel="mask-icon" href="./static/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="./static/favicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-config" content="./static/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#d6ffe2">
+    <!-- jQuerry -->
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <!-- Highlight Plugin -->
+    <script type="text/javascript" src="./static/js/raw.githubusercontent.com_bartaz_sandbox.js_master_jquery.highlight.js"></script>
+    <!-- Allow web app to be run in full-screen mode - iOS. -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="theme-color" content="#ecd96f">
+</head>
+
+<body>
+
+	{% block body %}{% endblock %}
+
+</html>
