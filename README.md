@@ -1,4 +1,5 @@
-# [B.E.N.E.I.T.](https://joanriosipla.github.io/BENEIT/)
+# [B.E.N.E.I.T. FLASK en Desenvolupamnet](https://joanriosipla.github.io/BENEIT/)
+[Visista la branca main per a la versió estable](https://github.com/JoanRiosiPla/BENEIT/tree/main)
 ## Base Enriquida de Nocions Enfocades en Insults i Trets
 Web i base de dades amb tots els insults en valencià/català/balear on tothom pot afegir-ne de nous.
 (En desenvolupament)
