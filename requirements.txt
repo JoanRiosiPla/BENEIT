@@ -1,2 +1,4 @@
 Flask
 flask_session2
+Flask-SQLAlchemy
+werkzeug
